@@ -413,7 +413,7 @@ header {
     height: 100%;
 }
 .section-depoiments .slide {
-    width: 880px;
+    width: 100vw;
     height: 100%;
     min-height: 300px;
     display: inline-flex;
@@ -471,89 +471,22 @@ header {
 .fornecedores {
     width: 100vw;
     height: auto;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #FFF;
     /*box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);*/
     border: 1px solid rgba(0,0,0,0.2);
-
 }
-
 .fornecedores-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
 }
-
 .fornecedores-img img {
     width: 80px;
 }
 
-
-.section-price {
-    overflow: hidden;
-    max-width: 880px;
-    margin: auto;
-}
-
-.price {
-    background-color: #EEE !important;
-    
-}
-.section-price .sliders {
-    width: 1000vw;
-    height: 100%;
-}
-.section-price .slide {
-    width: 210px;
-    height: 100%;
-    min-height: 300px;
-    display: inline-block;
-    background-color: #FFF;
-    margin-right: 10px;
-}
-.section-price .slidearea {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: #000;
-    padding: 30px;
-}
-
-.section-price .title {
-    font-size: 19px;
-    font-weight: 600;
-}
-
-.section-price .prices {
-    font-size: 25px;
-    font-weight: bold;
-    padding-top: 10px;
-}
-
-.section-price .times {
-    font-size: 12px;
-    color: #999;
-    padding-bottom: 10px;
-}
-
-.section-price .list ul {
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.section-price .choose {
-    background-color: #333;
-}
-
-.section-price .choose.active {
-    background-color: #B28756;
-}
