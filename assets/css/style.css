@@ -413,11 +413,11 @@ header {
     height: 100%;
 }
 .section-depoiments .slide {
-    width: 100vw;
+    width: 880px;
     height: 100%;
     min-height: 300px;
     display: inline-flex;
-    margin-right: 20px;
+
 }
 .section-depoiments .slidearea {
     height: 100%;
@@ -479,13 +479,16 @@ header {
     background-color: #FFF;
     /*box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);*/
     border: 1px solid rgba(0,0,0,0.2);
+
 }
+
 .fornecedores-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
 }
+
 .fornecedores-img img {
     width: 80px;
 }
