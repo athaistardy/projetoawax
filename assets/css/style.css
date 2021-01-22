@@ -42,7 +42,6 @@ header {
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    overflow: hidden;
 
 }
 .menu ul,
@@ -404,63 +403,40 @@ header {
 }
 
 
-.section-depoiments {
-    width: 100vw;
-    overflow: hidden;
 
+.testimonials .section-body {
+    max-width: initial;
 }
-.section-depoiments .sliders {
+
+.section-testimonials {
+    overflow: hidden;
+}
+.section-testimonials .sliders {
+    width: 1000vw;
+    height: 100%;
+}
+.section-testimonials .slide {
+    width: 100vw;
     height: 100%;
     min-height: 300px;
-    display: flex;
-    flex-wrap: wrap;
-
-}
-.section-depoiments .slide {
-
+    display: inline-block;
     
 }
-.section-depoiments .slidearea {
+.section-testimonials .slidearea {
     display: flex;
-    justify-content: center;
+    height: 100%;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    width: 560px;
-    color: #000;
-
-    margin-right: 5px;
 }
-
-.section-depoiments--avatar {
-    width: 150px;
-    height: auto;
-}
-.section-depoiments--name {
-    font-weight: bold;
-    font-size: 17px;
-    margin-top: 10px;
-}
-.section-depoiments--role {
-    font-weight: 600;
-    font-size: 14px;
-}
-.section-depoiments--quoteimg img {
-    width: 20px;
-}
-.section-depoiments--quote {
-    color: #999;
-    text-align: center;
-
-}
-
-.section-depoiments .sliders-pointers {
+.section-testimonials .sliders-pointers {
     margin-top: 30px;
     height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.section-depoiments .pointer {
+.section-testimonials .pointer {
     width: 15px;
     height: 15px;
     border: 2px solid #B28756;
@@ -468,33 +444,58 @@ header {
     margin: 5px 5px;
     cursor: pointer;
 }
-.section-depoiments .pointer.active {
+.section-testimonials .pointer.active {
     background-color: #B28756;
 }
-
-
-.fornecedores {
-    width: 100vw;
+.section-testimonials--avatar {
+    width: 150px;
     height: auto;
-    overflow: hidden;
+}
+.section-testimonials--name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.section-testimonials--role {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+.section-testimonials--social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.section-testimonials--social .quote-img {
+    width: 25px;
+}
+
+.section-testimonials--social .quote {
+    margin-top:10px;
+    font-size:13px;
+    max-width:700px;
+    color:#555;
+    text-align:center;
+    line-height:25px;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.section-fornecedores--img {
+    height:auto0px;
+    background-color: #FFF;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    border-bottom: 1px solid rgba(51, 50, 50, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #FFF;
-    /*box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);*/
-    border: 1px solid rgba(0,0,0,0.2);
-
 }
 
-.fornecedores-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-}
-
-.fornecedores-img img {
-    width: 80px;
+.fornecedores--img {
+    padding: 25px;
 }
 
