@@ -490,6 +490,10 @@ header {
     margin-right:30px;
 }
 
+.section-fornecedores {
+    
+}
+
 .section-fornecedores--img {
     height:auto;
     background-color: #FFF;
@@ -504,6 +508,7 @@ header {
 .fornecedores--img {
     padding: 25px;
 }
+
 
 
 .section-price {
@@ -558,4 +563,72 @@ header {
 
 .section-price a:hover {
     background-color: #B28756;
+}
+
+
+.section-pemium--book {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-premium--img {
+    margin-left: 10px;
+}
+
+.section-premium--text {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.section-feature {
+    margin: 40px;
+}
+
+.section-premium--text .section--feature-title {
+    display: flex;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section-premium--text .section-feature--titles {
+    margin-left: 20px;
+}
+
+.section-premium--text .section-feature--text {
+    margin-left: 55px;
+    color: #999;
+}
+
+.section-premium--text .section-feature-list {
+    margin-top: 10px;
+}
+
+.section-premium--text ul {
+    list-style:none;
+}
+
+.section-premium .sliders-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-premium .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 50%;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+.section-premium .pointer.active {
+    background-color: #B28756;
+}
+
+.button-choose {
+    display: flex;
+    justify-content: center;
 }
