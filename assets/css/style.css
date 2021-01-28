@@ -499,3 +499,57 @@ header {
     padding: 25px;
 }
 
+
+.section-price {
+
+    
+}
+
+.section-price--tables {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-price--table {
+    background-color: #FFF;
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-price ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.section-price .title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.section-price .price {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.section-price .mounth {
+    font-size: 10px;
+    text-align: center;
+    color: #999;
+    padding-bottom: 10px;
+}
+
+.section-price .button {
+    background-color: #222;
+}
+
+.section-price a:hover {
+    background-color: #B28756;
+}
