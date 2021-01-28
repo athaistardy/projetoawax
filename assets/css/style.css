@@ -191,6 +191,17 @@ header {
 }
 
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 32px;
+    padding: 50px;
+}
+
 
 
 /* DESIGN DE ÁREAS ESPECÍCAS */
