@@ -916,6 +916,7 @@ footer {
         margin-left:30px;
     }
     .menu-opener {
+        display: block;
         width:45px;
         margin-right:30px;
     }
@@ -1006,6 +1007,7 @@ footer {
         margin-left:30px;
     }
     .menu-opener {
+        display: block;
         width:45px;
         margin-right:30px;
     }
