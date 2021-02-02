@@ -198,7 +198,7 @@ footer {
     height: 50px;
     background-color: #000;
     color: #FFF;
-    font-size: 32px;
+    font-size: 28px;
     padding: 50px;
 }
 
@@ -826,7 +826,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    color: #CCC;
+    color: #CCC;    
 }
 
 .section-footer--info {
@@ -841,6 +841,7 @@ footer {
     display: flex;
     margin-bottom: 20px;
     margin-top: 20px;
+    padding: 50px;
     
 }
 
@@ -859,6 +860,7 @@ footer {
 
 .section-footer--info-social-img.active {
     background-color: #B28756;
+    flex: 1;
 }
 
 .section-footer--info-aboutus {
