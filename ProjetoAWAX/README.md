@@ -2,7 +2,7 @@
 
 ## O que ainda falta ser feito no projeto:
 
-* Terminar de montar a página.
+* Fazer ajustes de compatibilidade.
 * Deixar ela totalmente responsiva.
 * Criar sua versão Mobile.
 
