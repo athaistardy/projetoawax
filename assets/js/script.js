@@ -1,13 +1,10 @@
-let menu = document.querySelector('nav');
-let btnMenu = document.querySelector('.menu-opener');
+function menuToogle() {
+    let menu = document.querySelector('nav')
 
-
-
-
-    function openMenu() {
+    if (menu.style.display == 'none') {
         menu.style.display = 'block';
-    }
-
-    function closeMenu() {
+    } else {
         menu.style.display = 'none';
     }
+}
+
