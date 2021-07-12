@@ -1,12 +1,26 @@
-# Seja bem vindo (a) ao README do meu Primeiro Projeto publico no GitHub!
+# Seja bem vindo(a)!
 
-## Projetinho para testar conceitos de HTML5, CSS3 e uma pontinha de JS.
+## Projeto AWAX
 
-OBS.: _Essa página é fruto de estudo do Módulo de HTML5 e CSS3 do Curso_ B7WEB!
+Projeto desenvolvido a partir do Módulo de HTML e CSS do Curso B7web.
 
-[Clique aqui](https://athaistardy.github.io/projetoawax/) e visite a página do projeto no **GitHub Pages**
+## Tecnologias utilizadas:
+* HTML & CSS
+ - Flexbox
 
 
-Obrigada pela Atenção,
+## Imagens do Projeto:
 
-Atenciosamente, *thaistardy*.
+### Desktop:
+![Layout Desktop](https://github.com/athaistardy/projetoawax/blob/master/layoutDesktop.JPG)
+
+### Mobile:
+![Layout Mobile](https://github.com/athaistardy/projetoawax/blob/master/layoutMobile.JPG)
+
+
+## Projeto no ar:
+
+[Projeto no ar!](https://athaistardy.github.io/projetoawax/)
+
+### Meu instagram:
+[@athaistardy](https://www.instagram.com/athaistardy/)
